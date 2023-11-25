@@ -17,7 +17,7 @@
       <%= truncate(event.description, length: 35, separator: '...') %>
     </p>
     <p>
-      <%= event.starts_at %>
+      <%= day_and_time(event) %>
     </p>
   <% end %>
 
